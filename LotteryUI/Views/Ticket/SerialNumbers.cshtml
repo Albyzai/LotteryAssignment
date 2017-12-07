@@ -1,0 +1,16 @@
+﻿<h2>Serial numbers</h2>
+
+
+<br />
+<table style="width: 50%">
+    <tr>
+        <td><b>Serial number</b></td>
+    </tr>
+    @foreach (var serialNumber in ViewBag.Serials)
+    {
+        <tr>
+            <td>@serialNumber.key</td>
+        </tr>
+    }
+
+</table>
